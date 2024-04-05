@@ -28,7 +28,7 @@ You can also run each model benchmark separately. For example, to run nrp8, run
 
 # Results
 
-## Q1: Best results are in bold. A - indicates that the algorithm did not converge in the time limit (900s).
+## Q1: Extended Table 1. Best results are in bold. A - indicates that the algorithm did not converge in the time limit (900s).
 
 |      |     SARSOP $(\gamma = 0.95)$              |         SARSOP $(\gamma = 0.98)$               |          SARSOP $(\gamma = 0.99)$                                 |         SARSOP $(\gamma = 0.999)$             |          SARSOP $(\gamma = 0.99999)$        |  SARSOP $(\gamma = 1 - \epsilon)$      | Ours                |
 |---------|---------------------|----------------------|----------------------|---------------------|--------------------|--------------------|---------------------|
@@ -38,7 +38,7 @@ You can also run each model benchmark separately. For example, to run nrp8, run
 | Refuel8 | [0.184, 0.184] $1.4s$ | [0.314, 0.314] $4.24s$ | [0.374, 0.375] $9.83s$ | [0.438, 0.439] $339s$ | [0.218, 0.987] $-$   | [0, 0.988] $-$       | [**0.445, 0.446**] **20s**  |
 
 
-## Q2/Q3: Best results are in bold.
+## Q2/Q3: Extended Table 2. Best results are in bold.
 
 |                | PRISM                            | STORM                    | PAYNT       | SAYNT       | OURS                              | OVERAPP                  |
 |----------------|----------------------------------|--------------------------|-------------|-------------|-----------------------------------|--------------------------|
@@ -47,7 +47,7 @@ You can also run each model benchmark separately. For example, to run nrp8, run
 | Grid-av 20-0.5 | TO/MO                            | 0.115 <br>77s, 5M beliefs    | 0.524 <br> 1156s | 0.667 <br> 1986s | [**0.782, 0.783**] <br> **33s, 12K beliefs**   | 1.0 <br>  1.2s, 75K beliefs   |
 | Drone 4-1      | TO/MO                            | 0.839 <br>210s, 6.5M beliefs | 0.869 <br> 2509s | **0.890** <br> **427s**  | [0.884, 0.957] <br> -, 51K beliefs     | **0.942** <br> **1270s, 14M beliefs** |
 | Drone 4-2      | TO/MO                            | 0.953<br> 207s, 8.8M beliefs | 0.963 <br> 6815s | **0.971** <br> **733s**  | [0.964, 0.976]  <br> -, 26K beliefs     | **0.974** <br> **44s, 762K beliefs**  |
-| Refuel6        | [**0.67**, 0.72] <br> 136s               |** 0.67** <br> **1.4s**, 4.5K beliefs  | **0.67** <br> 77.8s  | **0.67** <br> 85s    | [**0.67, 0.67**] <br> **1.4s, 387 beliefs**    | 0.69 <br> <1s, 48K beliefs    |
+| Refuel6        | [**0.67**, 0.72] <br> 136s, 6K  |** 0.67** <br> **1.4s**, 4.5K beliefs  | **0.67** <br> 77.8s  | **0.67** <br> 85s    | [**0.67, 0.67**] <br> **1.4s, 387 beliefs**    | 0.69 <br> <1s, 48K beliefs    |
 | Refuel8        | TO/MO                            | 0.439 <br>1.7s, 20K beliefs  | **0.445** <br> 494s  | **0.445** <br> 91s   | [**0.445, 0.446**] <br> **20s, 3.7K beliefs**  | 0.509 <br> 410s, 11M beliefs  |
 | Refuel20       | TO/MO                            | 0.144 <br>142s, 3.9M beliefs | 0.018 <br> 1666s | 0.204 <br> 937s  | [**0.328, 0.999**] <br> **1356s, 32K beliefs** | **0.999** <br> **7.56s**, 177K beliefs            |
 | Crypt4         | [**0.33**, 0.77] <br> 33s, 312K beliefs   | **0.33** <br> **<1s**, 560 beliefs    | **0.33** <br> **<1s**    | **0.33** <br> **<1s**    | [**0.33, 0.33**] <br> 15.6s, 480 beliefs   | **0.33** <br> **<1s, 560 beliefs**    |
